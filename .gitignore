@@ -1,0 +1,51 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/*
+
+### Config Local ###
+src/main/resources/application-dev-local.properties
+.env
+
+### Node ###
+/src/test/e2e/node_modules/*
+/src/test/e2e/cypress/e2e/1-getting-started/*
+/src/test/e2e/cypress/e2e/2-advanced-examples/*
+/src/test/e2e/cypress/fixtures/*
+/src/test/e2e/cypress/downloads/*
+src/test/e2e/cypress/fixtures/*
+
+
+### Cypress ###
+src/test/e2e/cypress/reports
+src/test/e2e/cypress/videos
+src/test/e2e/cypress/screenshots
